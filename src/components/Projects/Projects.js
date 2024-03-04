@@ -24,67 +24,49 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="NURIDA TRIP"
+              description=" The website that helps people manage travel, booking, and show schedules."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="VISIPAY CLIENT"
+              description="The website is about transaction management, transferring money for another customer, management a digital wallet."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="XTREME BUSINESS CONCEPT, INC. (XBC)"
+              description="
+              XBC is an application that allows users to top up and pay phone services on
+              POS devices. Users can pay by cash with the retailer in-store or pay directly in
+              cash through the bill acceptor device connected to the POS device. The website is about transaction management, showing transaction reports
+              for wholesalers and retailers. XBC launch in the Bahamas. Work with third-party telecommunications providers of the Bahamas (ALIV and BTC - The Bahamas Telecommunications Company Ltd).
+              Go live at 09-02-2019."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="CONGDONGSEO.COM"
+              description=" This is a website used to share knowledge about SEO. Used to buy, sell, and exchange domains."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="OVH CLOUD"
+              description="This is a website used by users to buy VPS. The user and admin  can manage information. Admins have access to a system where they can oversee user accounts. They can also manage and update the listings of hosting providers, ensuring accurate information and a diverse range of VPS options for users. Users can buy VPS through the VNPAY payment gateway."
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
         </Row>

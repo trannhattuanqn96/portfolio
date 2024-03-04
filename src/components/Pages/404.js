@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "../../404.css"
+import "../../404.css";
 function Page404() {
+  const [height, setHeight] = useState(window.innerHeight);
 
   useEffect(() => {
     var body = document.body;
     setInterval(createStar, 100);
+
     function createStar() {
       var right = Math.random() * 500;
-      var top = Math.random() * window.innerHeight;
+      var top = Math.random() * height;
       var star = document.createElement("div");
       star.classList.add("star");
       body.appendChild(star);
@@ -18,11 +20,11 @@ function Page404() {
         if (right >= window.innerWidth) {
           star.remove();
         }
-        right += 3;
+        right += 1;
         star.style.right = right + "px";
       }
     }
-  },[])
+  }, []);
 
   return (
     <>
@@ -33,7 +35,7 @@ function Page404() {
           )
         })} */}
         <Container className="container404 ">
-          <Row className='row404'>
+          <Row className="row404">
             <Col
               md={12}
               style={{
@@ -49,8 +51,11 @@ function Page404() {
                 <div>Page Not Found</div>
               </div>
               <div class="astronaut">
-                <img src="https://images.vexels.com/media/users/3/152639/isolated/preview/506b575739e90613428cdb399175e2c8-space-astronaut-cartoon-by-vexels.png"
-                  alt="" class="src" />
+                <img
+                  src="https://images.vexels.com/media/users/3/152639/isolated/preview/506b575739e90613428cdb399175e2c8-space-astronaut-cartoon-by-vexels.png"
+                  alt=""
+                  class="src"
+                />
               </div>
             </Col>
           </Row>
